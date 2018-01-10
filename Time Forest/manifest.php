@@ -22,7 +22,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //Basic variables
 $name="Time Forest" ;
 $description="Be in tune with the forest" ;
-$version="1.2.00" ;
+$version="1.3.00" ;
 $author="Max Sze" ;
 $url="" ;
 ?>
