@@ -1452,6 +1452,10 @@ input[name*="phone"] ~ .LV_invalid {
   max-width: 1052px;
 }
 
+.matchHighlight table {
+    float: right;
+}
+
 .matchHighlight > td {
 	border-top: 1px dashed #c00;
 	border-bottom: 1px dashed #c00;
@@ -1511,20 +1515,20 @@ fieldset {
 }
 
 /* Fixes an odd colspan-related width bug in Chrome */
-td.fullWidth {
+td.fullWidth[colspan] {
     width: auto;
 }
 
 /* Utility classes - will be part of the larger css refactor soon */
 .noMargin {
-    margin: 0 !important; 
+    margin: 0 !important;
 }
 
 .noPadding,
 table.smallIntBorder td.noPadding {
-    padding: 0!important; 
+    padding: 0!important;
 }
 
 .noBorder {
-    border: 0!important; 
+    border: 0!important;
 }
